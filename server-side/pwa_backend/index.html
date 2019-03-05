@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Push and sync Demo</title>
+    
+  </head>
+
+  <body>
+    <h3>Service Worker / push demo</h3>
+	<div id="askPushSubscription">
+	    <input type="button" id="subscribe_btn_id" value="subscribe push" />
+    </div>
+	<div style="display:none;font-weight:bold;font-style:italic" id="subscriptionDone">
+		push subscription is done .
+	</div>
+	<hr/>
+	<h3 id="onlineOfflineStatus">online or offline</h3>
+	<hr/>
+	<h4> form for "background sync" when offline </h4>
+	<form>
+		username: <input type="text" id="idUsername" /> <br/>
+		email: <input type="text" id="idEmail" /> <br/>
+		<input type="button" value="register user" id="btnRegisterUser" /> <br/>
+	</form>
+	<div id="registerMsg"></div>
+
+	<script src="/client.js"></script>
+  </body>
+</html>
